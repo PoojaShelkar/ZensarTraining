@@ -25,7 +25,7 @@ public class Iterator {
 		System.out.println(al.size());
 		//al.clear();
 		//System.out.println(al);
-		Iterator<String> i = al.iterator();
+		java.util.Iterator<String> i = al.iterator();
 		while(i.hasNext());
 		{
 			String data=i.next();
