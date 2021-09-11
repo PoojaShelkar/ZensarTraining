@@ -3,7 +3,7 @@
 
 import java.util.ArrayList;
 
-public class Iterator {
+public class AllElementOfArrayList {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -23,6 +23,27 @@ public class Iterator {
 		
 		System.out.println(al);
 		System.out.println(al.size());
+		//al.clear();
+		//System.out.println(al);
+		
+		al.add("Pooja");
+		System.out.println(al);
+		
+		al.remove("A");
+		System.out.println(al);
+		System.out.println(al.contains("A"));
+		
+		ArrayList<String> al2=new ArrayList<String>();
+		al2.add("TQ");
+		al2.add("Java");
+		al2.add("Trainning");
+		
+		al2.add("al");
+		System.out.println(al);
+		System.out.println(al2);
+		
+		
+		
 		//al.clear();
 		//System.out.println(al);
 		java.util.Iterator<String> i = al.iterator();

@@ -5,13 +5,17 @@ import java.util.Scanner;
 public class Student {
 	int sid;
 	String name;
-	String hobbies h;
-	public Student(int sid, String sname, String[] hobbies) { 
+	String hobbies
+	public Object id; h;
+	
 		
 		this.sid = sid;
 		this.name = name;
-		this.hobbies = hobbies;
+		this.hobbies = i;
 		}
+	public Student(String string, String string2, int i, int j) {
+		// TODO Auto-generated constructor stub
+	}
 		}
 class Hobbies
 {
